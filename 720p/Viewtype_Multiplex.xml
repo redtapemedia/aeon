@@ -845,14 +845,13 @@
 					<info>ListItem.Icon</info>
 				</control>				
 				<control type="image">
-					<posx>181</posx>
+					<posx>160</posx>
 					<posy>39</posy>
 					<width>48</width>
 					<height>52</height>
+					<include>detailcolorfocus</include>
 					<info>ListItem.Overlay</info>
 					<visible>!Skin.HasSetting(nooverlays) + !IsEmpty(ListItem.Overlay)</visible>
-					<include>Animation_VisibleChange200</include>
-					<visible>false</visible>
 				</control>
 				<control type="image">
 					<posx>14</posx>
@@ -932,14 +931,14 @@
 					<include>Animation_MultiplexTVFocusZoom</include>					
 				</control>					
 				<control type="image">
-					<posx>181</posx>
+					<posx>170</posx>
 					<posy>39</posy>
 					<width>48</width>
 					<height>52</height>
 					<info>ListItem.Overlay</info>
 					<visible>!Skin.HasSetting(nooverlays) + !IsEmpty(ListItem.Overlay)</visible>
 					<include>Animation_VisibleChange200</include>
-					<visible>false</visible>
+					<visible>true</visible>
 				</control>
 			</focusedlayout>			
 
